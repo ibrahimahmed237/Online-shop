@@ -6,9 +6,7 @@ This is a Node.js application for managing products. It allows administrators to
 
 First, clone the repository to your local machine:
 
-```bash
 `git clone git@github.com/ibrahimahmed237/Online-shop.git`
-```
 
 Then, navigate to the project directory and install the dependencies:
 
