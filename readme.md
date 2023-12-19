@@ -23,7 +23,7 @@ npm start
 ```
 ## Configuration
 
-The API requires several environment variables to be set in order to run properly. These can be set in a `.env` file in the root directory of the project. Here are the required variables, add them to your `.env` file:
+The application requires several environment variables to be set in order to run properly. These can be set in a `.env` file in the root directory of the project. Here are the required variables, add them to your `.env` file:
 
 - **PORT:** The port number the API will listen on.
 - **MONGODB_URL:** The connection URL for the MongoDB database.
