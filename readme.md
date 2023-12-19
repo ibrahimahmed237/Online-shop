@@ -24,30 +24,45 @@ npm start
 
 ## Features
 
-- User Registration: Users can register with their name, email, and password. The information is validated to ensure it meets the requirements.
-- User Authentication: Register and login functionality with validation and password hashing.
-- Password Reset: Users can reset their passwords if they forget them. An email will be sent with a reset link.
-- Email Confirmation: Users receive a confirmation email upon successful signup.
-- Add new products: Administrators can add new products with title, price, description, and image. The product information is validated to ensure it meets the requirements.
-- Edit existing products
-- Validate product information
-- Upload product images (supports .jpg, .jpeg, .png, .bmp)
-- Error Handling: Custom error pages for 404 (Page Not Found) and 500 (Internal Server Error) status codes.
-- Pagination: Product listing includes pagination for easy navigation.
-- Product Detail Viewing: Users can view the details of a specific product.
-- Cart Operations: Users can view their cart, add products to the cart, and manage cart items.
-- Checkout with Stripe: Users can securely checkout using Stripe.
-- PDF Generation: Generates a PDF file for the checkout.
-- Order Management: Users can place orders. Each order contains a list of products with their quantities and user information.
-- Product Management: Administrators can manage products, including adding new products and editing existing ones.
-- Validation: The application validates user and product information using Joi.
-- Express.js: The application uses Express.js as the web framework.
-- EJS: The application uses EJS as the view engine.
-- Sessions: The application uses sessions for storing user data.
-- MongoDB: The application uses MongoDB for session storage.
-- CSRF Protection: The application uses CSRF protection for security.
-- Flash Messages: The application uses flash messages for notifications.
-- Routes: The application has routes for admin, shop, and authentication.
+ **User Registration and Authentication:**
+  - Users can securely register with their name, email, and password.
+  - Robust authentication with password hashing ensures user security.
+
+- **Password Management:**
+  - Password reset functionality for users who forget their passwords.
+  - Email confirmation upon successful signup.
+
+- **Product Management:**
+  - Administrators can effortlessly add and edit products, ensuring a dynamic product catalog.
+  - Product information is thoroughly validated to maintain data integrity.
+
+- **Image Handling:**
+  - Support for product image uploads in popular formats (.jpg, .jpeg, .png, .bmp).
+  - Utilizes Sharp for converting and optimizing images.
+
+- **Cart Operations and Checkout:**
+  - Seamless cart management for users, including adding products and reviewing cart items.
+  - Secure checkout operations facilitated by integration with Stripe.
+
+- **Order Management:**
+  - Users can place orders, each containing detailed information about products and user data.
+
+- **PDF Generation:**
+  - Generates PDF files for checkout, enhancing user documentation.
+
+- **Error Handling and Notifications:**
+  - Custom error pages for 404 (Page Not Found) and 500 (Internal Server Error) status codes.
+  - Flash messages for effective user notifications.
+
+- **Security Measures:**
+  - Implements CSRF protection for enhanced security.
+  - Utilizes bcrypt for password hashing.
+
+- **Technological Stack:**
+  - Developed using Express.js as the web framework.
+  - EJS employed as the view engine.
+  - MongoDB for session storage.
+  - Incorporates various dependencies for tasks such as email handling, image processing, and more.
 
 ## Dependencies
 
