@@ -10,5 +10,4 @@ const mongooseConnect = async () => {
     return next(error);
   }
 };
-
 module.exports = mongooseConnect;
