@@ -1,4 +1,4 @@
-# Product Management Application
+# Online shop Application
 
 This is a Node.js application for managing products. It allows administrators to add, edit products, manage user authentication, handle checkout operations with Stripe, and send emails for signup confirmation and password reset. It also includes error handling for common HTTP status codes, pagination for product listing, generates a PDF file for the checkout, provides cart operations, manages orders, handles user registration and password reset, manages products, validates user and product information, uses Express.js as the web framework, EJS as the view engine, and sessions for storing user data.
 
@@ -7,7 +7,7 @@ This is a Node.js application for managing products. It allows administrators to
 First, clone the repository to your local machine:
 
 ```bash
-git clone <repository-url>
+git clone <[repository-url](https://github.com/ibrahimahmed237/Online-shop.git)>
 ```
 
 Then, navigate to the project directory and install the dependencies:
