@@ -24,7 +24,7 @@ npm start
 
 ## Features
 
- **User Registration and Authentication:**
+- **User Registration and Authentication:**
   - Users can securely register with their name, email, and password.
   - Robust authentication with password hashing ensures user security.
 
