@@ -2,9 +2,9 @@
 const nodemailer = require("nodemailer");
 const config = {
   service: "gmail",
-  auth: {
-    user: "ibrahimahmed23j@gmail.com",
-    pass: "sulckqbyenpsgink",
+ auth: {
+    user: process.env.EMAIL,
+    pass: process.env.MAIL_PASSWORD,
   },
 };
 exports.sendEmail = async (email) => {
