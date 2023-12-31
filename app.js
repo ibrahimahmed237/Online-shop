@@ -2,6 +2,7 @@ const path = require("path");
 const express = require("express");
 const mongooseConnect = require("./util/db.js");
 const session = require("express-session");
+const helmet = require("helmet");
 const MongoDBStore = require("connect-mongodb-session")(session);
 const csrf = require("csurf");
 const flash = require("connect-flash");
@@ -17,6 +18,7 @@ const store = new MongoDBStore({
   collections: "sessions",
 });
 
+app.use(helmet());
 const csrfProtection = csrf();
 app.set("view engine", "ejs");
 app.set("views", "views");
