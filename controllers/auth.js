@@ -2,7 +2,10 @@ const bcrypt = require("bcryptjs");
 const User = require("../models/user");
 const { sendEmail, sendResetEmail } = require("../email/email.js");
 const crypto = require("crypto");
-const { signupValidation, loginValidation } = require("../models/validation");
+const {
+  signupValidation,
+  loginValidation,
+} = require("../validation/validation");
 
 exports.getLogin = async (req, res, next) => {
   try {

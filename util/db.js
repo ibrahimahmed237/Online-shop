@@ -7,7 +7,7 @@ const mongooseConnect = async () => {
   } catch (err) {
     const error = new Error(err);
     error.httpStatusCode = 500;
-    return next(error);
+    return (error);
   }
 };
 module.exports = mongooseConnect;
